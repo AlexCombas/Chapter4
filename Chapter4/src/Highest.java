@@ -12,6 +12,7 @@ public class Highest {
 				num = tmp;
 			}
 		}
+		if (num > 0 ) System.out.println("Greater than zero");
 		System.out.println("Highest number entered: " + num);
 		scan.close();
 
